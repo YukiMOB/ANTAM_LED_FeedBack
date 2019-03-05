@@ -8,8 +8,8 @@ ON/OFF—Ìˆæ‚Ì”½“]‚ÌÀ‘•
 HANDLE mbed_led;
 #define BAUDRATE_LED_MBED 57600
 #define LED_A 960  + 1//[ms] lx,ly‚ğXV‚·‚éüŠú 960‚ªˆÀ’è
-#define LED_CHANGE_CYCLE 40000 //[ms] min = LED_F
-#define SETUP_TIME 30000 //[ms]
+#define LED_CHANGE_CYCLE 10000 //[ms] min = LED_F
+#define SETUP_TIME 3000 //[ms]
 #define EXPERIMENT_TIME 1800000 + SETUP_TIME //[ms]
 //#define EXPERIMENT_TIME 180 //[ms]
 #define LIGHT_ARC 180 //–³‹Œ€ó‘Ô‚É‚µ‚½‚¢‚È‚ç0
